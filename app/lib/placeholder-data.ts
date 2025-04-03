@@ -1,5 +1,13 @@
 // This file contains placeholder data that you'll be replacing with real data in the Data Fetching chapter:
 // https://nextjs.org/learn/dashboard-app/fetching-data
+export type invoices = {
+  id: string;
+  customer_id: string;
+  amount: number;
+  date: string;
+  status: 'pending' | 'paid';
+};
+
 const users = [
   {
     id: '410544b2-4001-4271-9855-fec4b6a6442a',
